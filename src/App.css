@@ -1,0 +1,148 @@
+#root {
+    /* border: 1px solid black; */
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+
+    /* min-height: 1200px;
+    background-image: url("../src/assets/background_big.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+.h1 {
+    /* border: 1px solid black; */
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.h2 {
+    font-size: 2rem;
+    /* border: 1px solid black; */
+}
+
+/* ------ Attributes -----------  */
+
+.placeHolderAttributesContainer {
+    height: 3.5rem;
+}
+
+.attributesContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.attributeContainer {
+    /* border: 1px solid black; */
+    padding: 0.5rem;
+    width: 25%;
+    min-width: 12rem;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    min-height: 2rem;
+    /* border: 1px solid black; */
+}
+
+/* ------ Suggestions NFT image -----------  */
+
+.suggestionsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.suggestionContainer {
+    padding: 0.5rem;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    /* background: white; */
+}
+
+.image {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mintButton {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 10px solid bold;
+    padding: 1rem;
+    /* background-color: green; */
+}
+
+.imageChosen {
+    border: 5px solid blue;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img {
+    height: 8em;
+    padding: 1.5em;
+}
+
+.ownedNftsImage:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.image:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+img.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.noHover {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.generateImageButton {
+    /* border: black solid 1px; */
+    display: flex;
+    flex-direction: column;
+    padding: 1em 25.5%;
+    width: 100%;
+    min-width: 16rem;
+}
+
+.progressButton {
+    display: flex;
+    justify-content: center;
+}
+
+.textProgressButton {
+    margin-left: 2rem;
+}
+
+.ownedNfts {
+    display: flex;
+}
+.ownedNft {
+    width: 10rem;
+    margin: 1rem;
+}
+.ownedNftsImage {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link {
+    color: rgb(6 182 212);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.mintedContainer {
+    border: black dashed 2px;
+}
